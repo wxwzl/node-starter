@@ -1,0 +1,35 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "a node starter include mainly eslint, formatter,githooks and so on ;",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "eslintfix": "eslint --ext .js --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxwzl/node-starter.git"
+  },
+  "keywords": [
+    "starer",
+    "node"
+  ],
+  "author": "wxwzl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxwzl/node-starter/issues"
+  },
+  "homepage": "https://github.com/wxwzl/node-starter#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "conventional-changelog-cli": "^2.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1"
+  }
+}
